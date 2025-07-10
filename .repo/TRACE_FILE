@@ -1,0 +1,104 @@
+PID: 15746 START: 1752160686306067968 :+++++++++++++++NEW COMMAND+++++++++++++++++++ starting new command: init, -u, https://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni.git, -b, twrp-9.0 [sid=repo-20250710T151754Z-P00003d82/repo-20250710T151806Z-P00003d82]
+
+PID: 15746 START: 1752160686609723136 :git command /home/randward/Desktop/output/tcl/Aquaman_10_WIFI/.repo/manifests.git ['git', 'init'] with debug: : export GIT_DIR=/home/randward/Desktop/output/tcl/Aquaman_10_WIFI/.repo/manifests.git
+: git init 1>| 2>|
+
+PID: 15746 END: 1752160686612425472 :git command /home/randward/Desktop/output/tcl/Aquaman_10_WIFI/.repo/manifests.git ['git', 'init'] with debug: : export GIT_DIR=/home/randward/Desktop/output/tcl/Aquaman_10_WIFI/.repo/manifests.git
+: git init 1>| 2>|
+
+PID: 15746 START: 1752160686612922624 :git command /home/randward/Desktop/output/tcl/Aquaman_10_WIFI/.repo/manifests.git ['git', 'config', '--file', '/home/randward/Desktop/output/tcl/Aquaman_10_WIFI/.repo/manifests.git/config', '--includes', '--null', '--list'] with debug: : git config --file /home/randward/Desktop/output/tcl/Aquaman_10_WIFI/.repo/manifests.git/config --includes --null --list 1>| 2>|
+
+PID: 15746 END: 1752160686614569472 :git command /home/randward/Desktop/output/tcl/Aquaman_10_WIFI/.repo/manifests.git ['git', 'config', '--file', '/home/randward/Desktop/output/tcl/Aquaman_10_WIFI/.repo/manifests.git/config', '--includes', '--null', '--list'] with debug: : git config --file /home/randward/Desktop/output/tcl/Aquaman_10_WIFI/.repo/manifests.git/config --includes --null --list 1>| 2>|
+
+PID: 15746 START: 1752160686614700800 :: parsing /root/.gitconfig
+
+PID: 15746 END: 1752160686614750720 :: parsing /root/.gitconfig
+
+PID: 15746 START: 1752160686614827008 :git command /home/randward/Desktop/output/tcl/Aquaman_10_WIFI/.repo/manifests.git ['git', 'config', '--file', '/home/randward/Desktop/output/tcl/Aquaman_10_WIFI/.repo/manifests.git/config', '--includes', '--replace-all', 'filter.lfs.smudge', 'git-lfs smudge --skip -- %f'] with debug: : git config --file /home/randward/Desktop/output/tcl/Aquaman_10_WIFI/.repo/manifests.git/config --includes --replace-all filter.lfs.smudge git-lfs smudge --skip -- %f 1>| 2>|
+
+PID: 15746 END: 1752160686616491008 :git command /home/randward/Desktop/output/tcl/Aquaman_10_WIFI/.repo/manifests.git ['git', 'config', '--file', '/home/randward/Desktop/output/tcl/Aquaman_10_WIFI/.repo/manifests.git/config', '--includes', '--replace-all', 'filter.lfs.smudge', 'git-lfs smudge --skip -- %f'] with debug: : git config --file /home/randward/Desktop/output/tcl/Aquaman_10_WIFI/.repo/manifests.git/config --includes --replace-all filter.lfs.smudge git-lfs smudge --skip -- %f 1>| 2>|
+
+PID: 15746 START: 1752160686616589312 :git command /home/randward/Desktop/output/tcl/Aquaman_10_WIFI/.repo/manifests.git ['git', 'config', '--file', '/home/randward/Desktop/output/tcl/Aquaman_10_WIFI/.repo/manifests.git/config', '--includes', '--replace-all', 'filter.lfs.process', 'git-lfs filter-process --skip'] with debug: : git config --file /home/randward/Desktop/output/tcl/Aquaman_10_WIFI/.repo/manifests.git/config --includes --replace-all filter.lfs.process git-lfs filter-process --skip 1>| 2>|
+
+PID: 15746 END: 1752160686618156032 :git command /home/randward/Desktop/output/tcl/Aquaman_10_WIFI/.repo/manifests.git ['git', 'config', '--file', '/home/randward/Desktop/output/tcl/Aquaman_10_WIFI/.repo/manifests.git/config', '--includes', '--replace-all', 'filter.lfs.process', 'git-lfs filter-process --skip'] with debug: : git config --file /home/randward/Desktop/output/tcl/Aquaman_10_WIFI/.repo/manifests.git/config --includes --replace-all filter.lfs.process git-lfs filter-process --skip 1>| 2>|
+
+PID: 15746 START: 1752160686618250496 :git command /home/randward/Desktop/output/tcl/Aquaman_10_WIFI/.repo/manifests.git ['git', 'config', '--file', '/home/randward/Desktop/output/tcl/Aquaman_10_WIFI/.repo/manifests.git/config', '--includes', '--unset-all', 'core.bare'] with debug: : git config --file /home/randward/Desktop/output/tcl/Aquaman_10_WIFI/.repo/manifests.git/config --includes --unset-all core.bare 1>| 2>|
+
+PID: 15746 END: 1752160686619791360 :git command /home/randward/Desktop/output/tcl/Aquaman_10_WIFI/.repo/manifests.git ['git', 'config', '--file', '/home/randward/Desktop/output/tcl/Aquaman_10_WIFI/.repo/manifests.git/config', '--includes', '--unset-all', 'core.bare'] with debug: : git config --file /home/randward/Desktop/output/tcl/Aquaman_10_WIFI/.repo/manifests.git/config --includes --unset-all core.bare 1>| 2>|
+
+PID: 15746 START: 1752160686619936768 :git command /home/randward/Desktop/output/tcl/Aquaman_10_WIFI/.repo/manifests.git ['git', 'config', '--file', '/home/randward/Desktop/output/tcl/Aquaman_10_WIFI/.repo/manifests.git/config', '--includes', '--replace-all', 'remote.origin.url', 'https://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni.git'] with debug: : git config --file /home/randward/Desktop/output/tcl/Aquaman_10_WIFI/.repo/manifests.git/config --includes --replace-all remote.origin.url https://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni.git 1>| 2>|
+
+PID: 15746 END: 1752160686621612032 :git command /home/randward/Desktop/output/tcl/Aquaman_10_WIFI/.repo/manifests.git ['git', 'config', '--file', '/home/randward/Desktop/output/tcl/Aquaman_10_WIFI/.repo/manifests.git/config', '--includes', '--replace-all', 'remote.origin.url', 'https://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni.git'] with debug: : git config --file /home/randward/Desktop/output/tcl/Aquaman_10_WIFI/.repo/manifests.git/config --includes --replace-all remote.origin.url https://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni.git 1>| 2>|
+
+PID: 15746 START: 1752160686621728256 :git command /home/randward/Desktop/output/tcl/Aquaman_10_WIFI/.repo/manifests.git ['git', 'config', '--file', '/home/randward/Desktop/output/tcl/Aquaman_10_WIFI/.repo/manifests.git/config', '--includes', '--replace-all', 'remote.origin.fetch', '+refs/heads/*:refs/remotes/origin/*'] with debug: : git config --file /home/randward/Desktop/output/tcl/Aquaman_10_WIFI/.repo/manifests.git/config --includes --replace-all remote.origin.fetch +refs/heads/*:refs/remotes/origin/* 1>| 2>|
+
+PID: 15746 END: 1752160686623219456 :git command /home/randward/Desktop/output/tcl/Aquaman_10_WIFI/.repo/manifests.git ['git', 'config', '--file', '/home/randward/Desktop/output/tcl/Aquaman_10_WIFI/.repo/manifests.git/config', '--includes', '--replace-all', 'remote.origin.fetch', '+refs/heads/*:refs/remotes/origin/*'] with debug: : git config --file /home/randward/Desktop/output/tcl/Aquaman_10_WIFI/.repo/manifests.git/config --includes --replace-all remote.origin.fetch +refs/heads/*:refs/remotes/origin/* 1>| 2>|
+
+PID: 15746 START: 1752160686623374592 :git command /home/randward/Desktop/output/tcl/Aquaman_10_WIFI/.repo/manifests.git ['git', 'config', '--file', '/home/randward/Desktop/output/tcl/Aquaman_10_WIFI/.repo/manifests.git/config', '--includes', '--replace-all', 'manifest.platform', 'auto'] with debug: : git config --file /home/randward/Desktop/output/tcl/Aquaman_10_WIFI/.repo/manifests.git/config --includes --replace-all manifest.platform auto 1>| 2>|
+
+PID: 15746 END: 1752160686628403456 :git command /home/randward/Desktop/output/tcl/Aquaman_10_WIFI/.repo/manifests.git ['git', 'config', '--file', '/home/randward/Desktop/output/tcl/Aquaman_10_WIFI/.repo/manifests.git/config', '--includes', '--replace-all', 'manifest.platform', 'auto'] with debug: : git config --file /home/randward/Desktop/output/tcl/Aquaman_10_WIFI/.repo/manifests.git/config --includes --replace-all manifest.platform auto 1>| 2>|
+
+PID: 15746 START: 1752160686628557568 :git command /home/randward/Desktop/output/tcl/Aquaman_10_WIFI/.repo/manifests.git ['git', 'config', '--file', '/home/randward/Desktop/output/tcl/Aquaman_10_WIFI/.repo/manifests.git/config', '--includes', '--replace-all', 'core.repositoryFormatVersion', '1'] with debug: : git config --file /home/randward/Desktop/output/tcl/Aquaman_10_WIFI/.repo/manifests.git/config --includes --replace-all core.repositoryFormatVersion 1 1>| 2>|
+
+PID: 15746 END: 1752160686630243072 :git command /home/randward/Desktop/output/tcl/Aquaman_10_WIFI/.repo/manifests.git ['git', 'config', '--file', '/home/randward/Desktop/output/tcl/Aquaman_10_WIFI/.repo/manifests.git/config', '--includes', '--replace-all', 'core.repositoryFormatVersion', '1'] with debug: : git config --file /home/randward/Desktop/output/tcl/Aquaman_10_WIFI/.repo/manifests.git/config --includes --replace-all core.repositoryFormatVersion 1 1>| 2>|
+
+PID: 15746 START: 1752160686630344448 :git command /home/randward/Desktop/output/tcl/Aquaman_10_WIFI/.repo/manifests.git ['git', 'config', '--file', '/home/randward/Desktop/output/tcl/Aquaman_10_WIFI/.repo/manifests.git/config', '--includes', '--replace-all', 'extensions.preciousObjects', 'true'] with debug: : git config --file /home/randward/Desktop/output/tcl/Aquaman_10_WIFI/.repo/manifests.git/config --includes --replace-all extensions.preciousObjects true 1>| 2>|
+
+PID: 15746 END: 1752160686631871488 :git command /home/randward/Desktop/output/tcl/Aquaman_10_WIFI/.repo/manifests.git ['git', 'config', '--file', '/home/randward/Desktop/output/tcl/Aquaman_10_WIFI/.repo/manifests.git/config', '--includes', '--replace-all', 'extensions.preciousObjects', 'true'] with debug: : git config --file /home/randward/Desktop/output/tcl/Aquaman_10_WIFI/.repo/manifests.git/config --includes --replace-all extensions.preciousObjects true 1>| 2>|
+
+PID: 15746 START: 1752160686632087552 :git command /home/randward/Desktop/output/tcl/Aquaman_10_WIFI/.repo/manifests.git ['git', 'fetch', '--quiet', 'origin', '--recurse-submodules=no', '--tags', '+refs/heads/twrp-9.0:refs/remotes/origin/twrp-9.0', '+refs/tags/*:refs/tags/*'] with debug: : export GIT_OBJECT_DIRECTORY=/home/randward/Desktop/output/tcl/Aquaman_10_WIFI/.repo/manifests.git/objects
+: git fetch --quiet origin --recurse-submodules=no --tags +refs/heads/twrp-9.0:refs/remotes/origin/twrp-9.0 +refs/tags/*:refs/tags/* 1>| 2>&1
+
+PID: 15746 END: 1752160688534847744 :git command /home/randward/Desktop/output/tcl/Aquaman_10_WIFI/.repo/manifests.git ['git', 'fetch', '--quiet', 'origin', '--recurse-submodules=no', '--tags', '+refs/heads/twrp-9.0:refs/remotes/origin/twrp-9.0', '+refs/tags/*:refs/tags/*'] with debug: : export GIT_OBJECT_DIRECTORY=/home/randward/Desktop/output/tcl/Aquaman_10_WIFI/.repo/manifests.git/objects
+: git fetch --quiet origin --recurse-submodules=no --tags +refs/heads/twrp-9.0:refs/remotes/origin/twrp-9.0 +refs/tags/*:refs/tags/* 1>| 2>&1
+
+PID: 15746 START: 1752160688534986240 :git command /home/randward/Desktop/output/tcl/Aquaman_10_WIFI/.repo/manifests.git ['git', 'pack-refs', '--all', '--prune'] with debug: : git pack-refs --all --prune 1>| 2>|
+
+PID: 15746 END: 1752160688536619008 :git command /home/randward/Desktop/output/tcl/Aquaman_10_WIFI/.repo/manifests.git ['git', 'pack-refs', '--all', '--prune'] with debug: : git pack-refs --all --prune 1>| 2>|
+
+PID: 15746 START: 1752160688536848384 :git command /home/randward/Desktop/output/tcl/Aquaman_10_WIFI/.repo/manifests.git ['git', 'rev-parse', '--verify', 'refs/remotes/origin/twrp-9.0^0'] with debug: : git rev-parse --verify refs/remotes/origin/twrp-9.0^0 1>| 2>|
+
+PID: 15746 END: 1752160688538322944 :git command /home/randward/Desktop/output/tcl/Aquaman_10_WIFI/.repo/manifests.git ['git', 'rev-parse', '--verify', 'refs/remotes/origin/twrp-9.0^0'] with debug: : git rev-parse --verify refs/remotes/origin/twrp-9.0^0 1>| 2>|
+
+PID: 15746 START: 1752160688538575360 :git command /home/randward/Desktop/output/tcl/Aquaman_10_WIFI/.repo/manifests.git ['git', 'read-tree', '--reset', '-u', '-v', 'HEAD'] with debug: 
+: cd /home/randward/Desktop/output/tcl/Aquaman_10_WIFI/.repo/manifests
+: git read-tree --reset -u -v HEAD 2>|
+
+PID: 15746 END: 1752160688541020160 :git command /home/randward/Desktop/output/tcl/Aquaman_10_WIFI/.repo/manifests.git ['git', 'read-tree', '--reset', '-u', '-v', 'HEAD'] with debug: 
+: cd /home/randward/Desktop/output/tcl/Aquaman_10_WIFI/.repo/manifests
+: git read-tree --reset -u -v HEAD 2>|
+
+PID: 15746 START: 1752160688541072896 :: load refs /home/randward/Desktop/output/tcl/Aquaman_10_WIFI/.repo/manifests.git
+
+PID: 15746 END: 1752160688541208832 :: load refs /home/randward/Desktop/output/tcl/Aquaman_10_WIFI/.repo/manifests.git
+
+PID: 15746 START: 1752160688541329152 :git command /home/randward/Desktop/output/tcl/Aquaman_10_WIFI/.repo/manifests.git ['git', 'checkout', '-q', 'f3f57994a2aa2c92303df24bb01caff6850f7463', '--'] with debug: : git checkout -q f3f57994a2aa2c92303df24bb01caff6850f7463 -- 2>|
+
+PID: 15746 END: 1752160688543425024 :git command /home/randward/Desktop/output/tcl/Aquaman_10_WIFI/.repo/manifests.git ['git', 'checkout', '-q', 'f3f57994a2aa2c92303df24bb01caff6850f7463', '--'] with debug: : git checkout -q f3f57994a2aa2c92303df24bb01caff6850f7463 -- 2>|
+
+PID: 15746 START: 1752160688543507456 :git command /home/randward/Desktop/output/tcl/Aquaman_10_WIFI/.repo/manifests.git ['git', 'update-ref', '-d', 'refs/heads/default'] with debug: : git update-ref -d refs/heads/default 1>| 2>|
+
+PID: 15746 END: 1752160688544933376 :git command /home/randward/Desktop/output/tcl/Aquaman_10_WIFI/.repo/manifests.git ['git', 'update-ref', '-d', 'refs/heads/default'] with debug: : git update-ref -d refs/heads/default 1>| 2>|
+
+PID: 15746 START: 1752160688545080832 :: scan refs /home/randward/Desktop/output/tcl/Aquaman_10_WIFI/.repo/manifests.git
+
+PID: 15746 END: 1752160688545110016 :: scan refs /home/randward/Desktop/output/tcl/Aquaman_10_WIFI/.repo/manifests.git
+
+PID: 15746 START: 1752160688545215744 :: scan refs /home/randward/Desktop/output/tcl/Aquaman_10_WIFI/.repo/manifests.git
+
+PID: 15746 END: 1752160688545239808 :: scan refs /home/randward/Desktop/output/tcl/Aquaman_10_WIFI/.repo/manifests.git
+
+PID: 15746 START: 1752160688545304832 :git command /home/randward/Desktop/output/tcl/Aquaman_10_WIFI/.repo/manifests.git ['git', 'update-ref', 'refs/heads/default', 'f3f57994a2aa2c92303df24bb01caff6850f7463'] with debug: : git update-ref refs/heads/default f3f57994a2aa2c92303df24bb01caff6850f7463 1>| 2>|
+
+PID: 15746 END: 1752160688546845952 :git command /home/randward/Desktop/output/tcl/Aquaman_10_WIFI/.repo/manifests.git ['git', 'update-ref', 'refs/heads/default', 'f3f57994a2aa2c92303df24bb01caff6850f7463'] with debug: : git update-ref refs/heads/default f3f57994a2aa2c92303df24bb01caff6850f7463 1>| 2>|
+
+PID: 15746 START: 1752160688546911232 :git command /home/randward/Desktop/output/tcl/Aquaman_10_WIFI/.repo/manifests.git ['git', 'symbolic-ref', 'HEAD', 'refs/heads/default'] with debug: : git symbolic-ref HEAD refs/heads/default 1>| 2>|
+
+PID: 15746 END: 1752160688548401408 :git command /home/randward/Desktop/output/tcl/Aquaman_10_WIFI/.repo/manifests.git ['git', 'symbolic-ref', 'HEAD', 'refs/heads/default'] with debug: : git symbolic-ref HEAD refs/heads/default 1>| 2>|
+
+PID: 15746 START: 1752160688665404416 :git command /home/randward/Desktop/output/tcl/Aquaman_10_WIFI/.repo/manifests.git ['git', 'config', '--get', 'trace2.eventtarget'] with debug: : git config --get trace2.eventtarget 1>| 2>|
+
+PID: 15746 END: 1752160688666971648 :git command /home/randward/Desktop/output/tcl/Aquaman_10_WIFI/.repo/manifests.git ['git', 'config', '--get', 'trace2.eventtarget'] with debug: : git config --get trace2.eventtarget 1>| 2>|
+
+PID: 15746 END: 1752160688667029248 :+++++++++++++++NEW COMMAND+++++++++++++++++++ starting new command: init, -u, https://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni.git, -b, twrp-9.0 [sid=repo-20250710T151754Z-P00003d82/repo-20250710T151806Z-P00003d82]
+
